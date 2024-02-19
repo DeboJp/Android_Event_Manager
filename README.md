@@ -35,3 +35,6 @@ This project is under the MIT License - details are available in the LICENSE fil
 - Appreciation to mentors for guidance and the hosts for their continued support.
 
 ScholarHub reflects our collective efforts to support scholarly pursuits in a connected and dynamic environment.
+
+
+>Personal Note: `https://github.com/e-ratsavong/MJLSP-Hackathon-Team5/tree/main`
