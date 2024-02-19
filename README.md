@@ -1,6 +1,6 @@
 # ScholarHub: Academic and Service Excellence Tracker
 
-ScholarHub is a collaborative project born out of a desire to support and track the multifaceted aspects of a scholar's journey, focusing on academics, leadership, and community service. This app aims to provide a holistic platform for scholars to set goals, engage with a community of like-minded individuals, and find opportunities for growth and contribution.
+ScholarHub is a collaborative Android-App development project born out of a desire to support and track the multifaceted aspects of a scholar's journey, focusing on academics, leadership, and community service. This app aims to provide a holistic platform for scholars to set goals, engage with a community of like-minded individuals, and find opportunities for growth and contribution.
 
 ## Features
 - Goal Tracking: A feature for scholars to set, monitor, and reflect on their academic and extracurricular objectives.
