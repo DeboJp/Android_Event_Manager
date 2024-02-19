@@ -86,7 +86,7 @@ public class register extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(register.this, "Account Created.",
                                             Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(getApplicationContext(), login.class);
+                                    Intent intent = new Intent(getApplicationContext(), addProfile.class);
                                     startActivity(intent);
                                     finish();
                                 } else {

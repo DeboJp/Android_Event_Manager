@@ -7,4 +7,18 @@
     <string name="click_to_login">Click to login</string>
     <string name="click_to_register">click_to_register</string>
     <string name="logout">logout</string>
+    <string name="clubs">clubs</string>
+    <string name="save">save</string>
+    <string name="interest">interest</string>
+    <string name="position">position</string>
+    <string name="major">major</string>
+    <string name="college_standing">college_standing</string>
+    <string name="name">name</string>
+    <string name="profile">profile</string>
+    <string name="text_back">text_back</string>
+    <string name="goaltracker">goaltracker</string>
+    <string name="add_events">add_events</string>
+    <string name="my_events">my_events</string>
+    <string name="peers_profiles">peers_profiles</string>
+    <string name="my_profile">my_profile</string>
 </resources>

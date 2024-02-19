@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cardView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:foregroundGravity="center_horizontal"
+      app:cardElevation="10dp"
+      app:layout_constraintBottom_toTopOf="@+id/profileScrollView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageButton
+        android:id="@+id/inboxButton"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="21dp"
+        android:src="@android:drawable/sym_action_email" />
+
+    <TextView
+        android:id="@+id/profileFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="140dp"
+        android:paddingTop="20dp"
+        android:text="Profile"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+  </androidx.cardview.widget.CardView>
+
+  <ScrollView
+      android:id="@+id/profileScrollView"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="2dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:adjustViewBounds="true"
+          android:maxWidth="100dp"
+          android:maxHeight="100dp"
+          android:scaleType="centerCrop"/>
+      <!--                android:src="@drawable/sample_avatar" />-->
+
+      <TextView
+          android:id="@+id/nameTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:paddingTop="40dp"
+          android:text="@string/name"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/majorTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="@string/major"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/scholarClassTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="@string/college_standing"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/hobbyTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="@string/position"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/emailTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="@string/interest"
+          android:textSize="24sp" />
+
+      <TextView
+          android:id="@+id/phonenumTextView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal"
+          android:text="@string/clubs"
+          android:textSize="24sp" />
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/text_back"
+          android:text="@string/text_back" />
+    </LinearLayout>
+
+
+  </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
